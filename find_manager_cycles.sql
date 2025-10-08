@@ -1,0 +1,1 @@
+select employee_id,array_agg(manager_id) as in_loop from EMPLOYEE  group by 1
